@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/product-summary-card-YQneUQ_V9Y)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-summary-card-YQneUQ_V9Y)
 - Live Site URL: [Live Preview](https://legendary-kataifi-7e59bb.netlify.app)
 
 ### Built with
