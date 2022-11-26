@@ -16,6 +16,7 @@ h1,
   --white: #fff;
   --Pale-blue: hsl(225, 100%, 94%);
   --Bright-blue: hsl(245, 75%, 52%);
+  --Bright-blue-light: hsla(245, 75%, 52%, 0.76);
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
   --Dark-blue: hsl(223, 47%, 23%);
@@ -25,6 +26,10 @@ h1,
 }
 
 body {
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: var(--Pale-blue);
   font-family: "Red Hat Display", sans-serif;
   max-width: 100%;
@@ -122,6 +127,11 @@ main {
   color: var(--Bright-blue);
   text-align: right;
   margin-right: 5px;
+  cursor: pointer;
+}
+
+.card-plans a:hover {
+  color: var(--Bright-blue-light);
 }
 
 /* Card Buttons */
@@ -136,6 +146,11 @@ main {
   padding: 15px;
   font-weight: var(--fw-bold);
   box-shadow: 0px 15px 50px rgba(109, 160, 238, 0.699);
+  cursor: pointer;
+}
+
+.proceed:hover {
+  background-color: var(--Bright-blue-light);
 }
 
 .cancel {
@@ -146,6 +161,11 @@ main {
   border-radius: 0.5rem;
   padding: 15px;
   font-weight: var(--fw-extra-bold);
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: var(--Dark-blue);
 }
 
 /* Footer  */
@@ -170,6 +190,5 @@ main {
 @media (min-width: 575px) {
   body {
     background-image: url(./images/pattern-background-desktop.svg);
-    background-size: cover;
   }
 }
