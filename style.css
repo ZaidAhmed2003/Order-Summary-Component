@@ -191,4 +191,21 @@ main {
   body {
     background-image: url(./images/pattern-background-desktop.svg);
   }
+  .card {
+    max-width: 450px;
+  }
+  .card-img img {
+    height: 225px;
+  }
+  .card-content {
+    padding: 45px;
+  }
+  .card-plans {
+    padding: 25px;
+    margin-bottom: 5px;
+  }
+
+  .proceed {
+    margin-top: 1rem;
+  }
 }
