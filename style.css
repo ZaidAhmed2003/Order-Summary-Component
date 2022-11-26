@@ -185,7 +185,7 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
-/* Media */
+/* Media Queri */
 
 @media (min-width: 575px) {
   body {
