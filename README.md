@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://legendary-kataifi-7e59bb.netlify.app)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live Preview](https://legendary-kataifi-7e59bb.netlify.app)
 
 ### Built with
 
