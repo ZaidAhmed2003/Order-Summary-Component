@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 h1,
 *,
 *::after,
@@ -6,13 +8,168 @@ h1,
   padding: 0;
   text-decoration: 0;
   box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
   transition: all ease-in-out 0.5s;
 }
 
+:root {
+  --white: #fff;
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 900;
+}
+
+body {
+  background-color: var(--Pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CARD */
+
+.card {
+  background-color: var(--white);
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 1.5rem;
+  max-width: 340px;
+  overflow: hidden;
+  box-shadow: 0px 15px 30px rgba(168, 190, 231, 0.555);
+}
+
+/* Card image */
+
+.card img {
+  height: 160px;
+  width: 100%;
+}
+
+/* Card Content */
+
+.card-content {
+  display: grid;
+  gap: 1rem;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Order Summary H1 */
+
+.card-content h1 {
+  font-size: 24px;
+  color: var(--Dark-blue);
+  font-weight: var(--fw-extra-bold);
+}
+
+/* Order Detail */
+
+.order-detail {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: var(--Desaturated-blue);
+}
+
+/* Order Plans */
+
+.card-plans {
+  background-color: var(--Very-pale-blue);
+  border-radius: 0.5rem;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+.card-plans .card-p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.annual {
+  color: var(--Dark-blue);
+  font-weight: var(--fw-extra-bold);
+}
+
+.price {
+  color: var(--Desaturated-blue);
+}
+
+.card-plans img {
+  height: 48px;
+  width: 48px;
+}
+
+.card-plans a {
+  background: transparent;
+  font-size: 14px;
+  font-weight: var(--fw-bold);
+  text-decoration: underline;
+  color: var(--Bright-blue);
+  text-align: right;
+  margin-right: 5px;
+}
+
+/* Card Buttons */
+
+.proceed {
+  background-color: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  border-radius: 0.5rem;
+  padding: 15px;
+  font-weight: var(--fw-bold);
+  box-shadow: 0px 15px 50px rgba(109, 160, 238, 0.699);
+}
+
+.cancel {
+  background-color: transparent;
+  color: var(--Desaturated-blue);
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 15px;
+  font-weight: var(--fw-extra-bold);
+}
+
+/* Footer  */
+
+/* Attribution */
+
 .attribution {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media */
+
+@media (min-width: 575px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+  }
 }
