@@ -46,7 +46,7 @@ I Learned About Backgrounds and Grids In Ths Project.
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/) - This is an amazing article which helped me finally understand Backgrounds. I'd recommend it to anyone still learning this concept.
+- [MDN Mozilla](https://developer.mozilla.org/en-US/) - This is an amazing article which helped me finally understand Backgrounds. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
