@@ -8,9 +8,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -51,4 +52,4 @@ I Learned About Backgrounds and Grids In Ths Project.
 
 - Linkedin - [Zaid Ahmed](https://www.linkedin.com/in/zaidahmed2345/)
 - Frontend Mentor - [@ZaidAhmed2003](https://www.frontendmentor.io/profile/ZaidAhmed2003)
-- GitHub - [@yourusername](https://github.com/ZaidAhmed2003)
+- GitHub - [@ZaidAhmed2003](https://github.com/ZaidAhmed2003)
